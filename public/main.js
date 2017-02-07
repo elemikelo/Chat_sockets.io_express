@@ -1,4 +1,4 @@
-var socket = io.connect('192.168.0.160:8080', {'forceNew': true});
+var socket = io.connect('127.0.0.1:8000', {'forceNew': true});
 
 socket.on('messages', function(data){
 	console.log(data);
@@ -13,7 +13,7 @@ socket.on('messages', function(data){
 				</div>`);
  	}).join(' ');
 
-	document.getElementById('messages').innerHTML = html;			
+	document.getElementById('messages').innerHTML = html;
 
  };
 

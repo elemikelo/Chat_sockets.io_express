@@ -4,10 +4,10 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon server/main.js"
+    "start": "nodemon js/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luis Miguel Alvarez Maidero",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
